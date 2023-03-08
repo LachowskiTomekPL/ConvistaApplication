@@ -18,7 +18,7 @@ public class PersonController {
     @PostMapping("/persons")
     public ResponseEntity<Person> addPerson(@RequestBody Person person) {
 
-        kafkaService.sendPersonToKafka(person.getUuid().toString(), person);
+        kafkaService.sendPersonToKafka(person);
 
 
         return ResponseEntity.ok(person);

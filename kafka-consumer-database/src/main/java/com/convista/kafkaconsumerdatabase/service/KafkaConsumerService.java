@@ -15,8 +15,9 @@ public class KafkaConsumerService {
     ConsumerDatabaseRepository consumerDatabaseRepository;
     PersonMessage personMessage = new PersonMessage();
 
-    @KafkaListener(topics = "kafka-topic2", groupId = "groupId")
-    public void getPersonsFromKafka(Person person) {
+
+    @KafkaListener(topics = "kafka-topic2", groupId = "sample-group")
+    public void personListener(Person person) {
 
         log.info("Printing person: " + person.getFirstName() + person.getLastName());
         personMessage.setFirstName(person.getFirstName());

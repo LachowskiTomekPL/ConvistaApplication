@@ -1,4 +1,4 @@
-//package com.convista.symulator.kafkaConfig;
+//package com.convista.kafkaconsumerdatabase.config;
 //
 //import org.apache.kafka.clients.admin.AdminClientConfig;
 //import org.apache.kafka.clients.admin.NewTopic;
