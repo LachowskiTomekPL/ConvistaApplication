@@ -1,8 +1,8 @@
 package com.convista.kafkaconsumerdatabase.service;
 
-import com.convista.kafkaconsumerdatabase.entity.Person;
 import com.convista.kafkaconsumerdatabase.entity.PersonMessage;
 import com.convista.kafkaconsumerdatabase.repository.ConsumerDatabaseRepository;
+import com.convista.model.Person;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;

@@ -1,6 +1,6 @@
 package com.convista.kafkaconsumerdatabase.repository;
 
-//import com.convista.kafkaconsumerdatabase.entity.Person;
+//import com.convista.model.Person;
 
 import com.convista.kafkaconsumerdatabase.entity.PersonMessage;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,6 +1,6 @@
 //package com.convista.kafkaconsumerdatabase.config;
 //
-//import com.convista.kafkaconsumerdatabase.entity.Person;
+//import com.convista.model.Person;
 //import org.apache.kafka.clients.consumer.ConsumerConfig;
 //import org.apache.kafka.common.serialization.StringDeserializer;
 //import org.apache.kafka.common.serialization.StringSerializer;

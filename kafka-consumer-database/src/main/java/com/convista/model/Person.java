@@ -1,4 +1,4 @@
-package com.convista.kafkaconsumerdatabase.entity;
+package com.convista.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

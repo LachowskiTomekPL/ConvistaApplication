@@ -1,6 +1,6 @@
 //package com.convista.symulator.kafkaConfig;
 //
-//import com.convista.symulator.entity.Person;
+//import com.convista.model.Person;
 //import org.apache.kafka.clients.producer.ProducerConfig;
 //import org.apache.kafka.common.serialization.StringSerializer;
 //import org.springframework.beans.factory.annotation.Value;

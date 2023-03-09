@@ -1,6 +1,6 @@
 package com.convista.symulator.controller;
 
-import com.convista.symulator.entity.Person;
+import com.convista.model.Person;
 import com.convista.symulator.service.KafkaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

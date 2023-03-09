@@ -1,4 +1,4 @@
-package com.convista.symulator.entity;
+package com.convista.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
